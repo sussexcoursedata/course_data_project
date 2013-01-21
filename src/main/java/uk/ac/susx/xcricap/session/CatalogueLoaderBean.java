@@ -1,6 +1,3 @@
-/*
- * Copyright (c) 2012, University of Sussex and/or its affiliates. All rights reserved.
- */
 package uk.ac.susx.xcricap.session;
 
 import java.util.ArrayList;
@@ -16,7 +13,6 @@ import org.purl.dc.elements._1.DescriptionDType;
 import org.purl.dc.elements._1.SimpleLiteral;
 import org.purl.dc.elements._1.SubjectDType;
 import org.purl.net.mlo.CreditDType;
-import org.purl.net.mlo.DurationDType;
 import org.purl.net.mlo.LocationDType;
 import org.purl.net.mlo.QualificationDType;
 import org.purl.net.mlo.Resource;

@@ -1,7 +1,3 @@
-/*
- * Copyright (c) 2012, University of Sussex and/or its affiliates. All rights reserved.
- */
-
 package uk.ac.susx.xcricap.view;
 
 import java.io.File;

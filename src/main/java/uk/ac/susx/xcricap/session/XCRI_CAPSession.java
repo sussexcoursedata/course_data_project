@@ -1,13 +1,9 @@
-/*
- * Copyright (c) 2012, University of Sussex and/or its affiliates. All rights reserved.
- */
 package uk.ac.susx.xcricap.session;
 
 import com.sun.jersey.api.json.JSONJAXBContext;
 import com.sun.jersey.api.json.JSONMarshaller;
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
@@ -20,15 +16,12 @@ import javax.ejb.EJB;
 import javax.ejb.Stateless;
 import javax.ejb.LocalBean;
 import javax.ejb.Schedule;
-import javax.jws.WebMethod;
-import javax.jws.WebService;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
-import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import org.xcri.profiles._1_2.catalog.Catalog;

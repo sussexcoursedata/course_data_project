@@ -13,4 +13,4 @@ Alternatively, use a different method to populate your XCRI-CAP schema and chang
 Licence
 -------
 
-Details concerning the licensed use of this project can be found [here](LICENSE)
+This software is copyright (c) 2013 University of Sussex. It is made available for use under the MIT License. Further details can be found [here](LICENSE).

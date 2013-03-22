@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ejb-jar xmlns = "http://java.sun.com/xml/ns/javaee" 
+         version = "3.0" 
+         xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation = "http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/ejb-jar_3_0.xsd">
+    <enterprise-beans>
+        <session>
+            <ejb-name>XCRI_CAPSession</ejb-name>
+            <env-entry>
+                <description>Bean used to load XCRI-CAP database</description>
+                <env-entry-name>schemaLoaderBeanName</env-entry-name>
+                <env-entry-type>java.lang.String</env-entry-type>
+                <env-entry-value>uk.ac.susx.xcricap.session.SchemaLoaderBeanRemote</env-entry-value>
+            </env-entry>
+            <env-entry>
+                <description>Use bean to load XCRI-Database</description>
+                <env-entry-name>useLoaderBean</env-entry-name>
+                <env-entry-type>java.lang.Boolean</env-entry-type>
+                <env-entry-value>true</env-entry-value>
+            </env-entry>
+        </session>
+    </enterprise-beans>
+      
+</ejb-jar>

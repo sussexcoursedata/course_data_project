@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.047" errors="0" skipped="0" tests="2" name="uk.ac.susx.xcricap.test.SchemaLoaderBeanTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="H:\Programs\Java 1_6_38\jre\bin"/>
+    <property name="java.vm.version" value="20.13-b02"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 3"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\SVN Projects\XCRI-CAP"/>
+    <property name="java.runtime.version" value="1.6.0_38-b05"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="H:\Programs\Java 1_6_38\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\DOCUME~1\rjb41\LOCALS~1\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows XP"/>
+    <property name="classworlds.conf" value="H:\Programs\NetBeans 7.3\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="H:\Programs\Java 1_6_38\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.6.0_18\bin;C:\oracle\ids10g\jdk\jre\bin\classic;C:\oracle\ids10g\jdk\jre\bin;C:\oracle\ids10g\jdk\jre\bin\client;C:\oracle\ids10g\jlib;C:\oracle\ids10g\bin;C:\oracle\ids10g\jre\1.4.2\bin\client;C:\oracle\ids10g\jre\1.4.2\bin;C:\Oracle\ora10gclient\bin;C:\Oracle\ora10gclient\jre\1.4.2\bin\client;C:\Oracle\ora10gclient\jre\1.4.2\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\WBEM;C:\Program Files\Intel\DMIX;C:\Program Files\Kaspersky Lab\;C:\Program Files\QuickTime Alternative\QTSystem;C:\Program Files\TortoiseSVN\bin;D:\Programs\Sun\jwsdp-2.0\jwsdp-shared\bin;C:\Sun2\SDK\bin;D:\Programs\Google\google_appengine\;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="5.1"/>
+    <property name="user.home" value="C:\Documents and Settings\rjb41"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="user.name" value="rjb41"/>
+    <property name="java.class.path" value="H:\Programs\NetBeans 7.3\java\maven\boot\plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="H:\Programs\Java 1_6_38\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.6.0_38"/>
+    <property name="java.ext.dirs" value="H:\Programs\Java 1_6_38\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="H:\Programs\Java 1_6_38\jre\lib\resources.jar;H:\Programs\Java 1_6_38\jre\lib\rt.jar;H:\Programs\Java 1_6_38\jre\lib\sunrsasign.jar;H:\Programs\Java 1_6_38\jre\lib\jsse.jar;H:\Programs\Java 1_6_38\jre\lib\jce.jar;H:\Programs\Java 1_6_38\jre\lib\charsets.jar;H:\Programs\Java 1_6_38\jre\lib\modules\jdk.boot.jar;H:\Programs\Java 1_6_38\jre\classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="maven.home" value="H:\Programs\NetBeans 7.3\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase time="0" classname="uk.ac.susx.xcricap.test.SchemaLoaderBeanTest" name="testPopulateSchema"/>
+  <testcase time="0" classname="uk.ac.susx.xcricap.test.SchemaLoaderBeanTest" name="testPopulateSearchableSchema"/>
+</testsuite>

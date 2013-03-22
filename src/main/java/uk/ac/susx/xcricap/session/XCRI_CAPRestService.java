@@ -64,6 +64,13 @@ public class XCRI_CAPRestService {
             }
         };
     }
+    
+    @GET
+    @Path("courses.xml")
+    @Produces(MediaType.TEXT_XML)
+    public StreamingOutput getXCRIXmlFile() {
+        return getXCRIXml();
+    }
 
     /**
      * Returns the REST XML representation of the service 
